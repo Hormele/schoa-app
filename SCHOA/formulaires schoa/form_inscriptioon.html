@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulaire inscription</title>
+        <link rel="stylesheet" href="./formulaire.css">
+    </head>
+
+    <body>
+        <form method="post" action="traitement.php">
+
+            <fieldset>
+                <h2>Register Now</h2>
+
+                <p>
+                    <label for="nom">your name</label>
+                    <input type="text" name="nom" id="nom"  placeholder="enter your name" required>
+                </p>
+
+                <p>
+                    <label for="email">your email</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email" required>  
+                </p>
+
+                <p>
+                    <label for="password">your password</label>
+                    <input type="password" name="mot_de_passe" id="password" placeholder="enter your password" required>
+                </p>
+
+                <p>
+                    <label for="password">confirm password</label>
+                    <input type="password" name="mot_de_passe" id="password" placeholder="confirm your password" required>
+                </p>
+
+                <p>
+                    <label for="picture">Update pic</label>
+                    <input type="text" name="picture" id="picture" required>
+                </p>
+
+                <input type="submit" class="submit-button" value="Register">
+
+            </fieldset>
+        </form>
+    </body>
+</html>

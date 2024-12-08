@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulaire mise a jour profil</title>
+        <link rel="stylesheet" href="./formulaire.css">
+    </head>
+
+    <body>
+        <form method="post" action="traitement.php">
+
+            <fieldset>
+                <h2>Update Profile</h2>
+
+                <p>
+                    <label for="nom">update name</label>
+                    <input type="text" name="nom" id="nom" required>
+                </p>
+
+                <p>
+                    <label for="email">update email</label>
+                    <input type="email" name="email" id="email" required>  
+                </p>
+
+                <p>
+                    <label for="password">update password</label>
+                    <input type="password" name="mot_de_passe" id="password" required>
+                </p>
+
+                <p>
+                    <label for="password">Previous password</label>
+                    <input type="password" name="mot_de_passe" id="password" required>
+                </p>
+
+                <p>
+                    <label for="password">New password</label>
+                    <input type="password" name="mot_de_passe" id="password" required>
+                </p>
+
+                <p>
+                    <label for="password">confirm password</label>
+                    <input type="password" name="mot_de_passe" id="password" required>
+                </p>
+
+                <p>
+                    <label for="picture">Update pic</label>
+                    <input type="text" name="picture" id="picture" required>
+                </p>
+
+                <input type="submit" class="submit-button" value="Send message">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
